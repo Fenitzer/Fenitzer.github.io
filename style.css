@@ -1,4 +1,105 @@
-div
+header
+{   
+    border: solid;
+    width: 100%;
+}
+.logo
+{   
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu
+{   
+    position: fixed;
+    right: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    word-spacing: 25px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{   
+    margin-bottom: -15px;
+    padding: 15px 10px 0px 10px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2
+{   
+    margin-top: -15px;
+    padding: 0px 10px 10px 10px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3
+{
+    padding: 100px 0px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.principal
 {
     text-align: center;
+    padding: 10px 50px;
 }
+.texto
+{
+    padding: 20px 20px 200px 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.missao, .visao, .valores
+{   
+    display: inline-block;
+    align-items: start;
+    width: 30%;
+    top: 0px;
+    vertical-align: text-top;
+}
+.m1, .va1, .vi1
+{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.mtext, .vatext, .vitext
+{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+.mvv
+{   
+    text-align: center;
+}
+
+footer
+{
+    width: 100%;
+}
+.f1
+{
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f2
+{   
+    position: absolute;
+    right: 50px;
+    display: inline;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
