@@ -6,10 +6,11 @@ header
 .logo
 {   
     position: relative;
-    left: 10px;
+    left: 5px;
+    top: 2px;
     display: inline-block;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 50px;
+
 }
 .menu
 {   
@@ -21,6 +22,7 @@ header
     letter-spacing: 2px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
 }
 h1
 {   
@@ -31,9 +33,9 @@ h1
 }
 h2
 {   
-    margin-top: -15px;
+    margin-top: -5px;
     padding: 0px 10px 10px 10px;
-    font-size: 11px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3
@@ -102,4 +104,88 @@ footer
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.imgmvv
+{
+    width: 75px;
+}
+.conteudomembro
+{
+    text-align: center;
+    position: relative;
+}
+.titulomembro
+{
+    margin-left: 100px; 
+}
+.nomemembro
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitulomembro
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table
+{
+    border: solid;
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+}
+.line
+{
+    border: solid;
+}
+.columns1
+{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+.columns2
+{   
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 220px;
+}
+.textomembro
+{
+    border: solid;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 12px;
 
+}
+.imgmembro
+{
+    border: solid;
+    width: 500px;
+}
+.direita
+{
+    position: relative;
+    border: solid;
+    display: inline-block;
+}
+.name
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0%;
+    margin-top: 5px;
+}
+.primeirapalavra
+{
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
