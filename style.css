@@ -1,29 +1,20 @@
 header
 {   
-    border: solid;
+    display: inline-block;
+    position: relative;
     width: 100%;
+    background-color: aquamarine;
+    height: 50px;
 }
 .logo
 {   
-    position: relative;
-    left: 5px;
-    top: 2px;
+    position: absolute;
+    left: 7px;
+    top: 3px;
     display: inline-block;
     width: 50px;
+}
 
-}
-.menu
-{   
-    position: fixed;
-    right: 15px;
-    margin-top: 10px;
-    display: inline-block;
-    word-spacing: 25px;
-    letter-spacing: 2px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 1;
-}
 h1
 {   
     margin-bottom: -15px;
@@ -107,85 +98,4 @@ footer
 .imgmvv
 {
     width: 75px;
-}
-.conteudomembro
-{
-    text-align: center;
-    position: relative;
-}
-.titulomembro
-{
-    margin-left: 100px; 
-}
-.nomemembro
-{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.subtitulomembro
-{
-    font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.table
-{
-    border: solid;
-    width: 500px;
-    display: inline-block;
-    text-align: left;
-}
-.line
-{
-    border: solid;
-}
-.columns1
-{
-    display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: bold;
-    font-weight: 700;
-}
-.columns2
-{   
-    display: inline-block;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    left: 220px;
-}
-.textomembro
-{
-    border: solid;
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    padding: 12px;
-
-}
-.imgmembro
-{
-    border: solid;
-    width: 500px;
-}
-.direita
-{
-    position: relative;
-    border: solid;
-    display: inline-block;
-}
-.name
-{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin-bottom: 0%;
-    margin-top: 5px;
-}
-.primeirapalavra
-{
-    font-weight: 800;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
 }
