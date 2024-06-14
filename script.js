@@ -30,14 +30,13 @@ function fecharMenu()
         }
 }
 
-    window.onload=function()
-
+window.onload = function()
 {
     foto = document.getElementById("foto");
     botão = document.getElementById("botão");
     todos = document.getElementsByClassName("membro");
 
-    console.log(todos);
+    //console.log(todos);
     if (botão !== null)
         {
             botão.addEventListener("click", coisar);

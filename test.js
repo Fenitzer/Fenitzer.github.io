@@ -1,39 +1,23 @@
-function digaVar(parametro, outro)
-    {
-        return ;
-    } 
-
-
-let pessoa1 =   {
-                    nome : "wagner", 
-                    idade : 34, 
-                    gay : true,
-                    cidade : "Llanfallpushguingangogeravishtrobollantyciliogogogoh",
-                    cumprimentar : function(parametro)
-                    {
-                        console.log(parametro+" blz?");
-                    }
-                };
-
-let pessoa2 =   {
-                    nome : "felipe", 
-                    idade : 35, 
-                    gay : false,
-                    cidade : "São Paulo",
-                    cumprimentar : function(parametro)
-                    {
-                        console.log(parametro+" blz?");
-                    }
-                };
-
-let carros =    [
-                    "BMW", "Mercedes Benz", "Skoda", "Mazda", "Audi"
-                ];
-                carros.splice(3,1);
-                carros.splice(2, 0,"Volvo", "Porsche", "VW");
-
-for ( let i = 10; i >= 0; i --)
+let agera = 
 {
-    console.log (i)
-}
-    console.log("BOOOOOM!!");
+    fabricante: "Koenigsegg", 
+    ano: 2018,
+    modelo: "One",
+    potencia: 1341,
+    topspeed: 458,
+};
+console.log(Object.keys(agera));
+console.log(Object.values(agera));
+console.log(Object.entries(agera));
+
+let ageraJason = 
+{
+    "fabricante": "Koenigsegg", 
+    "ano": 2018,
+    "modelo": "One",
+    "potencia": 1341,
+    "topspeed": 458
+};
+console.log(Object.keys(ageraJason));
+console.log(Object.values(ageraJason));
+console.log(Object.entries(ageraJason));
