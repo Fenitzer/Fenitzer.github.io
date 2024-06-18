@@ -1,0 +1,24 @@
+.card {
+    border: solid;
+    height: 200px;
+    position: relative;
+    width: 400px;
+}
+
+.cardinfo {
+    display: inline-block;
+    height: 200px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+}
+
+.cardfoto {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.foto {
+    height: 200px;
+}

@@ -94,5 +94,7 @@ window.onload = function()
     salvar.addEventListener("click", save);
     carregar.addEventListener("click", load);
 
+document.createElement();
+
 }
             //template literal `'input[id="${tiposangue}'"]` 
