@@ -1,3 +1,5 @@
+import cadastrorapido from "./cadastrorapido.js";
+import cadastro from "./cadastro.js";
 let foto;
 let botão;
 
@@ -49,4 +51,7 @@ window.onload = function()
         {
             todos[i].addEventListener("mouseout", fecharMenu);
         }
+
+    cadastro();
+    cadastrorapido();
 }

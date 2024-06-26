@@ -6,7 +6,7 @@ let email = false;
 let videogames = [];
 let dados = [];
 
-window.onload = function()
+function cadastro ()
 {
     salvar = document.getElementById("salvar");
     carregar = document.getElementById("carregar");
@@ -91,10 +91,14 @@ window.onload = function()
                     console.log('input[id="' + tiposangue + '"]');
     }
 
-    salvar.addEventListener("click", save);
-    carregar.addEventListener("click", load);
-
-document.createElement();
-
+    if (salvar !== null)
+        {
+            salvar.addEventListener("click", save);
+        }
+    if (carregar !== null)
+        {
+            carregar.addEventListener("click", load);
+        }
 }
+export default cadastro;
             //template literal `'input[id="${tiposangue}'"]` 

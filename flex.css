@@ -1,0 +1,25 @@
+div
+{   
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: aqua;
+
+}
+
+
+.flexconteiner
+{
+    display: flex;
+    background-color: rgb(25, 197, 39);
+    flex-flow: row;
+}
+@media (o)
+{
+    .flexconteiner
+    {
+        background-color: brown;
+    }
+}
+

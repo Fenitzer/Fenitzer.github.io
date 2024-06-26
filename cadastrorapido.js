@@ -6,12 +6,11 @@ let nomecard;
 let cidadecard;
 let ocupaçãocard;
 let button;
-let novop;
 let main;
 let card;
 
 
-window.onload = function()
+function cadastrorapido ()
 
 {
     nomeinput = document.getElementById("nomeinput");
@@ -22,51 +21,46 @@ window.onload = function()
     ocupaçãocard = document.getElementById("ocupaçãocard");
     button = document.getElementById("button");
     main = document.getElementById("main");
-    //button.addEventListener("click", cadastrar);
+    button.addEventListener("click", cadastrar);
 
-    // function criarcard (objeto)
-    // {   
-    //     card = document.createElement("div");
-    //     card.className = "card"
-    //     card.innerHTML = 
-    //                         `<div class="cardinfo">
-    //             <table>
-    //                 <tr>
-    //                     <td>
-    //                         Nome: 
-    //                     </td>
-    //                     <td id="nomecard">
-    //                     ${objeto.nome}
-    //                     </td>
-    //                 </tr>
-    //                 <tr>
-    //                     <td>
-    //                         Cidade:
-    //                     </td>
-    //                     <td id="cidadecard">
-    //                     ${objeto.cidade}
-    //                     </td>
-    //                 </tr>
-    //                 <tr>
-    //                     <td>
-    //                         Ocupação: 
-    //                     </td>
-    //                     <td id="ocupaçãocard">
-    //                     ${objeto.ocup}
-    //                     </td>
-    //                 </tr>
-    //             </table>
-    //         </div>
-    //         <div class="cardfoto">
-    //             <img src="Imagens/Fenitzer.jpeg" alt="${objeto.foto}" class="foto">
-    //         </div>`;
-    //         main[0].appendChild(card);
-
-        // novop = document.createElement("p");
-        // novop.innerText = nome.value;
-        // console.log(nome.value);
-        // main[0].appendChild(novop);
-    //}
+    function cadastrar ()
+    {   
+        card = document.createElement("div");
+        card.className = "card"
+        card.innerHTML = 
+                            `<div class="cardinfo">
+                <table>
+                    <tr>
+                        <td>
+                            Nome: 
+                        </td>
+                        <td id="nomecard">
+                        ${nomeinput.value}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cidade:
+                        </td>
+                        <td id="cidadecard">
+                        ${cidadeinput.value}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ocupação: 
+                        </td>
+                        <td id="ocupaçãocard">
+                        ${ocupaçãoinput.value}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cardfoto">
+                <img src="Imagens/Fenitzer.jpeg" alt="" class="foto">
+            </div>`;
+            main.appendChild(card);
+    }
         x8.map((objeto) => {
             card = document.createElement("div");
             card.className = "card"
@@ -105,3 +99,4 @@ window.onload = function()
                 main.appendChild(card);
         });
 }
+export default cadastrorapido;

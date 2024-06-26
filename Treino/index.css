@@ -1,0 +1,74 @@
+@media only screen and (max-width: 800px)
+{
+    .carros
+        {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        }
+}
+.carros
+{
+    display: flex;
+    border: solid;
+    width: 100%;
+
+}
+.dados
+{
+    display: flex;
+}
+td, th
+{
+    border: solid;
+}
+#desc
+{
+    width: 70%;
+    border: solid;
+}
+img
+{
+    width: 300px;
+}
+#modelo
+{}
+#foto
+{   
+    padding-left: 7px; 
+    margin: 2px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.tabela
+{
+    width: 150px;
+}
+#cadastro
+{
+    /* flex-direction: column; */
+    
+    width: 20%;
+    margin: 10px;
+    position: fixed;
+
+}
+#listcarros
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px;
+}
+.card
+{
+    display: flex;
+
+}
+#wagner
+{
+    width: 20%;
+    margin: 10px;
+}
